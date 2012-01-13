@@ -39,3 +39,13 @@ function isNameCool () {
 }
 
 isNameCool();
+
+// assignment (more reusable, etc)
+
+var writeNameManyTimes = function(){
+	for (var i = 0; i < 5; i++ ){
+		document.write("<br><strong>Roger!</strong>");
+	}
+}; // this semicolon is becuase of the variable bit
+
+writeNameManyTimes ();
